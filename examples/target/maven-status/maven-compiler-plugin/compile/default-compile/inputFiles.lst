@@ -1,2 +1,10 @@
-D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\udp\FromUdpRouteBuilder.java
-D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\udp\UdpMain.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\custom\MyFileEndpoint.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\udp\FromUdpDemo.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\common\LogHelper.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\custom\MyFileComponentDemo.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\custom\MyFileConsumer.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\custom\CustomFileComponet.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\custom\MyFileProducer.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\file\FromFileDemo.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\udp\UdpToFile.java
+D:\dsys-project\apachecamel-skills\examples\src\main\java\vip\codehome\camel\examples\file\ToFileDemo.java
