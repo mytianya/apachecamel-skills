@@ -12,6 +12,9 @@ import vip.codehome.camel.examples.udp.FromUdpDemo;
 
 import static org.apache.camel.model.rest.RestParamType.body;
 
+/***
+ * camel-cxf componenet ,cxf是webservice库
+ */
 public class FromWebServiceDemo {
     public static void main(String[] args) throws Exception {
         CamelContext context=new DefaultCamelContext();

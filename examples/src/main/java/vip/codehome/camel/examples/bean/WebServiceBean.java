@@ -11,6 +11,9 @@ import javax.xml.namespace.QName;
 import java.util.UUID;
 
 public class WebServiceBean {
+    public String invoke(@Header("allParams")String allParams){
+        return allParams;
+    }
     public String invoke(@Header("wsdl")String wsdl,@Header("namespace")String namespace,@Header("method")String method){
         JaxWsDynamicClientFactory dcf=JaxWsDynamicClientFactory.newInstance();
         Client client=dcf.createClient(wsdl);

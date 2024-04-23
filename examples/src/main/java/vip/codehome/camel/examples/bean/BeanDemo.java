@@ -28,10 +28,8 @@ public class BeanDemo {
         @Override
         public void configure() throws Exception {
             from("timer:start?fixedRate=true&period=5000")
-                    .setHeader("wsdl",constant("http://localhost:8080/cxf/weather?wsdl"))
-                    .setHeader("namespace",constant("http://mytianya.gitee.io/webservice"))
-                    .setHeader("method",constant("getWeather"))
-                    .bean(WebServiceBean.class,"invoke")
+                    .setHeader("allParams",constant("{xxx}"))
+                    .bean(new WebServiceBean(),"invoke2")
                     .to("stream:out");
 
         }
